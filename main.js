@@ -103,3 +103,9 @@ for (i = 0; i < descrip.length; i++) {
     text += descrip[i] + "";
 }
 */
+
+function jobbys (comps){
+    for (var i = 0; i>=jobs.length; i++){
+        return jobs()[i];
+    }
+}
