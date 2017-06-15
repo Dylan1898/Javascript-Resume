@@ -14,9 +14,9 @@ var descrip = [ 'Feeding, cleaning stalls, administering medication', 'Walking, 
 function displayPosition(compName, title, descrip){
     return '--' + compName + "--" + title + "--" + descrip;
 }   
-console.log('Dylan Smith'.toUpperCase());
-console.log('Web Designer');
-console.log('I am a 27 year old developer from Birmingham, Alabama.' );
+console.log('Name:', 'Dylan Smith'.toUpperCase());
+console.log('Career: Web Designer');
+console.log('Description: I am a 27 year old developer from Birmingham, Alabama.' );
 console.log("My Previous Experience:")
 console.log(displayPosition(compName[0], title [0], descrip[0]))
 console.log(displayPosition(compName[1],title[1],descrip[1]))
