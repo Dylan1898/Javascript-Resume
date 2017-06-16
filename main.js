@@ -14,14 +14,23 @@ var descrip = [ 'Feeding, cleaning stalls, administering medication', 'Walking, 
 function displayPosition(compName, title, descrip){
     return '--' + compName + "--" + title + "--" + descrip;
 }   
+
+var interests = [ 'art', 'music', 'reading']
+
+
+
 console.log('Name:', 'Dylan Smith'.toUpperCase());
 console.log('Career: Web Designer');
 console.log('Description: I am a 27 year old developer from Birmingham, Alabama.' );
+console.log('My Interests:')
+for (var i=0; i< interests.length; i++){
+    console.log('*' + interests[i])
+}
 console.log("My Previous Experience:")
 console.log(displayPosition(compName[0], title [0], descrip[0]))
 console.log(displayPosition(compName[1],title[1],descrip[1]))
 console.log(displayPosition(compName[2],title[2],descrip[2]))
-console.log("My Interests:")
+console.log("My skills:")
 console.log(displaySkill('Painting', true))
 console.log(displaySkill('Being lazy', false))
 console.log(displaySkill('Eating dirt', false))
